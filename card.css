@@ -1,0 +1,64 @@
+h1{
+    color: goldenrod;
+    font-size: 3rem;
+    
+}
+body{
+    font-family: 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://media.istockphoto.com/id/1206505233/vector/poker-table-background-in-green-color.jpg?s=612x612&w=0&k=20&c=1-WRVj64dMfBuLFHjm08rCi3jsEa-7NGZwOhxBlyUdY=");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+#message-to-play{
+    font-style: italic;
+}
+button {
+    color: #016f32;
+    font-size: large;
+    font-weight: bold;
+    width: 150px;
+    background-color: goldenrod;
+    padding: 5px 20px 5px 20px;
+    border: none;
+    border-radius: 3%;
+}
+button:active{
+    transform: scale(0.97);
+}
+#container {
+    display: none;
+}
+
+#player-setup {
+    background-color: rgba(0,0,0,0.7);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#player-setup input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#player-setup button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
